@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: pegasus
+    password: pegasus
+    url: jdbc:postgresql://localhost:5432/pegasus_auth
+    driver-class-name: org.postgresql.Driver
+
+keycloak:
+  custom:
+    adminUser:
+      username: admin
+      password: admin
+      create-admin-user-enabled: true
